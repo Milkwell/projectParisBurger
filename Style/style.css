@@ -16,6 +16,10 @@ a {
   color: black;
 }
 
+h4 {
+  color: rgb(100, 100, 100);
+}
+
 footer {
   background-color: rgb(255, 180, 40);
 }
@@ -44,6 +48,18 @@ footer {
   background-color: rgb(190, 220, 230);
 }
 
+.food-image-group-1 {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+
+.food-image-group-2 {
+  display: flex;
+  justify-content: space-between;
+  width: 20%;
+}
+
 .food-image-group-3 {
   display: flex;
   justify-content: space-between;
@@ -53,6 +69,14 @@ footer {
 .meal-image-8, .meal-image-9, .meal-image-10 {
   background-color: rgb(190, 220, 230);
   height: 26%;
+}
+
+.expectations {
+  background-color: rgb(190, 220, 230);
+}
+
+.quoted-review {
+  background-color: rgb(190, 220, 230);
 }
 
 .bottom-bar {
