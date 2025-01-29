@@ -1,0 +1,74 @@
+$primary-orange: rgb(255, 180, 40);
+$primary-offwhite: rgb(190, 220, 230);
+
+* {
+    border: solid 1px rgb(150, 255, 255);
+}
+
+body {
+    //background-color: white;
+    font-family: /*Mulish, */Arial, Helvetica, sans-serif;
+    padding: 2% 10%;
+    //background-image: url('./ExtraImages/leaves.png');
+}
+
+header {
+    background-color: $primary-orange;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+footer {
+    background-color: $primary-orange;
+}
+
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
+
+.background-image {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.motivational-quote {
+    background-color: $primary-offwhite;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+
+.food-section-2 {
+    background-color: $primary-offwhite;
+}
+
+.food-image-group-3 {
+    display: flex;
+    justify-content: space-between;
+    width: 25%;
+}
+
+.meal-image-8, .meal-image-9, .meal-image-10 {
+    background-color: $primary-offwhite;
+    height: 26%;
+}
+
+// .top-right {
+//     display: flex;
+//     justify-content: space-between;
+//     width: 30%;
+// }
+
+.bottom-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10%;
+}
